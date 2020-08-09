@@ -1,0 +1,40 @@
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+body {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count:0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: wheat;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+hr {
+    border: 1px solid rgb(3, 95, 64);
+}
+li {
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+ul {
+    padding-left: 140px;
+}
+p {
+    font-size: 25px;
+}
+a {
+    font-size: 25px;
+}
