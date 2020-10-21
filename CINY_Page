@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style rel="stylesheet">
+  .container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    
+  }
+
+  body {
+        background: beige
+  }
+  #contactus{
+  margin-left: 80%
+  }
+
+  </style>
+</head>
+<body>
+  <img id="banner" src="https://i.postimg.cc/KY4QKkZY/CINY-Banner-with-logo.png" width="100%" alt="CINY-Banner-with-logo">
+  <div>
+    <a id="contactus" href="https://www.monroecollege.edu/contact-us" class="btn btn-primary">Contact Us</a>
+  </div><br>
+  <div class="container">
+    <iframe src="https://www.youtube.com/embed/TwesYQ-0oOM" frameborder="0" allowfullscreen class="video"></iframe>
+  </div><br>
+  <div class="container-fluid">
+    <!-- Control the column width, and how they should appear on different devices -->
+    <h2>About Us</h2>
+    <p>Located in New Rochelle, New York – just 25 minutes from New York City and its 23,000 restaurants – the Culinary Institute of New York (CINY) is an award-winning, nationally recognized culinary institute that provides students with a combination of theoretical education and hands-on experience in culinary arts, pastry arts, and hospitality management. With access to state-of-the-art instructional facilities designed to simulate the kitchens of restaurants, hotels and large production operations, students receive personal instruction and mentorship from a faculty of ACF-certified chefs and experienced industry professionals who are committed to their success. CINY has been ranked one of the top ten culinary schools in the Northeastern US and in the top twenty nation-wide. In the few years since our founding in 2009, our program has produced award-winning culinary teams, students, faculty and staff, as well as a critically acclaimed student-run restaurant, The Dining Lab, deemed a "training ground for students" by The Wall Street Journal and "the little kitchen that could" by The New York Times. Our culinary competition team has won close to 900 ACF medals and has been named the 2018 Northeast Regional Champions.</p>
+    <h2>Academics</h2>
+    <p>CINY’s curriculum is built on three principles: Pride, Passion, and Professionalism. Whether our students are looking to excel in culinary arts, pastry arts, or hospitality management, our courses will provide them with the technical, theoretical, and practical knowledge and skills they need to build an impactful career in their field of choice. Students receive professional instruction and personal mentorship from a faculty of experienced industry professionals – many of whom are certified by the American Culinary Federation (ACF) – including Dean Frank Costantino, named Chef of the Year by the ACF Long Island Chapter, and pastry instructor Ebow Dadzie, who was named one of the 2014 Top Ten Pastry Chefs in the U.S. by Dessert Professional.</p>
+    <h2>Campus Life</h2>
+    <p>CINY boasts a strong, diverse and supportive campus community that provides students with ample opportunities to enhance their personal and professional development outside of the classroom. By joining student groups such as the Professional Convention Management Association, the Culinary Arts Service Club, and the Baking and Pastry Club, many CINY students make meaningful contributions to the greater community through participating in local fundraising, volunteering and charitable events.</p>
+    <h2>Our ACF Chefs</h2><br>
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="http://ciny.monroecollege.edu/content/our-chefs/frank-costantino.jpg" width="80%" alt="frank-costantino"><br>
+        <h4>Frank Costantino, Ed.D CEC CCE CCA AAC</h4>
+        <p>CINY is led by Dean Frank Costantino, who also serves as Executive Chef at The Dining Lab. Dean Costantino has extensive experience as a restaurant chef in some of the finest NYC restaurants, as well as a distinguished career in culinary and hospitality education. Named the American Culinary Federation (ACF) Big Apple Chapter Chef of the Year in 2004, the Chef Educator of the Year in 2006 and the ACF Long Island Chef of the Year in 2013, he has led culinary competition teams at the Culinary Olympics and other international competitions. He has won numerous gold medals in individual competitions, including the ACF National Championship in 2002. He is recognized as one of New York State’s top culinary coaches, leading CINY’s student teams to over 900 competition medals, including the 2015, 2016, 2018 and 2019 ACF New York State Championships and 2016 and 2018 Northeast regional championships. He is a certified culinary educator, certified executive chef, and certified culinary administrator as well as a fellow of the American Academy of Chefs.</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="http://ciny.monroecollege.edu/content/our-chefs/edward-moon.jpg" width="80%" alt="edward-moon">
+        <h4>Edward Moon CEC</h4>
+        <p>At age 18, as a student at Boston University, Hotel/Food major Edward Moon discovered his passion for cooking the minute he stepped into a commercial kitchen and realized that was where he was meant to be. Chef Moon has been teaching for seven years and has been certified as a CEC for five years. His most notable positions were at L’Espalier in Boston, The Atlantic Inn (Block Island, RI) and Eli’s Restaurant (Block Island, RI).</p>
+      </div>
+    </div><br>
+    <div class="row">
+      <div class="col-sm-6">
+        <img src="http://ciny.monroecollege.edu/content/our-chefs/michael-vignapiano.jpg" width="80%" alt="michael-vignapiano">
+        <h4>Michael Vignapiano, CCE AAC</h4>
+        <p>Michael Vignapiano discovered his passion for cooking when he attended culinary school at Johnson and Wales. He has been certified as a Culinary Educator with the American Culinary Federation for 18 years, has been teaching for 26 years and has served as an ACF-certified culinary judge since 2013. Most notably, Chef Vignapiano has worked at the Harvard Club of New York City. He has also owned his own business, Fresh Flavors Catering.</p>
+      </div>
+      <div class="col-sm-6">
+        <img src="http://ciny.monroecollege.edu/content/our-chefs/eric-peillizzari.jpg" width="80%" alt="eric-peillizzari">
+        <h4>Eric P. Pellizzari, CEC CCE ACE</h4>
+        <p>Born and raised in southwest France, Chef Pellizzari’s culinary journey began with the passion that both his grandfather and mother had for good food. Having graduated in 1983 with a BEP and a CAP in traditional French cuisine and Hotel Management at the culinary school in Capbreton, France, he joined the kitchen of Joel Robuchon and later Jacques Senechal from La Tour D’Argent in Paris at The Nikko Hotel. Chef Pellizzari’s career in the United States began when he transfered to Windows on the World in New York City. A chef educator since 2000 and instructor at CINY since 2008, Chef Pellizzari holds certifications as an Executive Chef and Culinary Educator from the American Culinary Federation, as well as certification as a Culinary Evaluator. He has been an ACF-certified culinary judge since 2010.</p>
+      </div>
+    </div>
+    <hr>
+    <img src="http://ciny.monroecollege.edu/img/ciny-logo-horizontal-blue.svg" width="33%" class="mx-auto d-block" alt="ciny-logo-horizontal-blue"><br>
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="https://www.monroecollege.edu/RequestInfo/" class="btn btn-outline-secondary">Request Information</a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://www.monroecollege.edu/Campus-Life/Orientation/TourRequest/" class="btn btn-outline-secondary">Schedule a Visit</a>
+      </div>
+      <div class="col-sm-4">
+        <a href="https://oap.monroecollege.edu/Login?ReturnUrl=%2f" class="btn btn-outline-secondary">Apply Now</a>
+      </div>
+    </div><br>
+  </div>
+</body>
+</html>
